@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a69a1342-2b5c-40da-9449-8430edcaddf5" name="Default Changelist" comment="finalized the web app">
-      <change afterPath="$PROJECT_DIR$/public/assets/images/pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/stop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/1639987560869.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/1639988521558.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/1639988529304.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/1639988632734.mp3" afterDir="false" />
+    <list default="true" id="a69a1342-2b5c-40da-9449-8430edcaddf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/recorder.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/recorder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,8 +90,17 @@
       <updated>1639285480998</updated>
       <workItem from="1639285483248" duration="5000" />
       <workItem from="1639285492010" duration="7272000" />
-      <workItem from="1639958431881" duration="10703000" />
+      <workItem from="1639958431881" duration="10812000" />
+      <workItem from="1639988926537" duration="5000" />
     </task>
+    <task id="LOCAL-00001" summary="finalized the web app">
+      <created>1639988832732</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639988832732</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
