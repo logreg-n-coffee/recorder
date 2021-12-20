@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a69a1342-2b5c-40da-9449-8430edcaddf5" name="Default Changelist" comment="" />
+    <list default="true" id="a69a1342-2b5c-40da-9449-8430edcaddf5" name="Default Changelist" comment="finalized the web app">
+      <change afterPath="$PROJECT_DIR$/public/assets/images/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1639987560869.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1639988521558.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1639988529304.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1639988632734.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/recorder.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/recorder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +30,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="22AfnJEg0OmO2LTXMatC93aNenS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -31,10 +53,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="localhost:3000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -60,9 +86,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="JavaScript Debug.localhost:3000" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.test" />
-        <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
   </component>
@@ -75,11 +102,29 @@
       <option name="presentableId" value="Default" />
       <updated>1639285480998</updated>
       <workItem from="1639285483248" duration="5000" />
-      <workItem from="1639285492010" duration="1821000" />
+      <workItem from="1639285492010" duration="7272000" />
+      <workItem from="1639958431881" duration="10703000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="finalized the web app" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalized the web app" />
   </component>
 </project>
