@@ -1,0 +1,1 @@
+A demo version of the recorder deployed on Heroku: https://javascript-recorder.herokuapp.com
