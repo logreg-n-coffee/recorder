@@ -35,7 +35,7 @@ function record() {
     // browser supports getUserMedia then change image in button
     recordButtonImage.src = `/images/${mediaRecorder && mediaRecorder.state === 'recording' ? 'microphone' : 'stop'}.png`;
 
-    if (!mediaRecorder) {  // check if mediaRecorder (refined at the beginning) is null (no ongoing recording)
+    if (!mediaRecorder) {  // check if mediaRecorder (defined at the beginning) is null (no ongoing recording)
         // start recording
         navigator.mediaDevices.getUserMedia({ // prompt whether user allows microphone access
             audio: true, // only record audio
@@ -74,7 +74,7 @@ function mediaRecorderStop() {
     const audioElm = document.createElement('audio');
     audioElm.setAttribute('controls', ''); //add controls
     //create the Blob from the chunks
-    audioBlob = new Blob(chunks, { type: 'audio/mp3' });
+    audioBlob = new Blob(chunks, { type: 'audio/wav' });
     const audioURL = window.URL.createObjectURL(audioBlob);
     audioElm.src = audioURL;
     //show audio
@@ -108,11 +108,11 @@ function resetRecording() {
 }
 
 // save click event handler - upload the recording(s) to the server using Fetch API when user clicks Save button
-function saveRecording () {
+function saveRecording() {
     //the form data that will hold the Blob to upload
     const formData = new FormData();
     //add the Blob to formData
-    formData.append('audio', audioBlob, 'recording.mp3');
+    formData.append('audio', audioBlob, 'recording.wav');
     //send the request to the endpoint
     fetch('/record', {
         method: 'POST',
@@ -184,7 +184,7 @@ function createRecordingElement (file) {
 }
 
 
-function playRecording (e) {
+function playRecording(e) {
     let button = e.target;
     if (button.tagName === 'IMG') {
         //get parent button
