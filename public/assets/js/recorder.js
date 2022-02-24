@@ -123,8 +123,6 @@ function saveRecording() {
             alert("Your recording is saved");
             //reset for next recording
             resetRecording();
-            //reset for next recording
-            resetRecording();
             //fetch recordings
             fetchRecordings();
         })
