@@ -1,0 +1,1 @@
+This serves as the uploads folder
