@@ -74,7 +74,7 @@ function mediaRecorderStop() {
     const audioElm = document.createElement('audio');
     audioElm.setAttribute('controls', ''); //add controls
     //create the Blob from the chunks
-    audioBlob = new Blob(chunks, { type: 'audio/wav' });
+    audioBlob = new Blob(chunks, { type: 'audio/mp3' });
     const audioURL = window.URL.createObjectURL(audioBlob);
     audioElm.src = audioURL;
     //show audio
@@ -112,7 +112,7 @@ function saveRecording() {
     //the form data that will hold the Blob to upload
     const formData = new FormData();
     //add the Blob to formData
-    formData.append('audio', audioBlob, 'recording.wav');
+    formData.append('audio', audioBlob, 'recording.mp3');
     //send the request to the endpoint
     fetch('/record', {
         method: 'POST',

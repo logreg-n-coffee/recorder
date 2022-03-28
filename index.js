@@ -23,10 +23,10 @@ const upload = multer({ storage });  // middleware that will upload files
 // API endpoint - show recordings
 app.get('/recordings', (req, res) => {
     let files = fs.readdirSync(path.join(__dirname, 'uploads'));  // read the files in uploads directory
-    files = files.filter((file) => {  // filter files and get wav files
+    files = files.filter((file) => {  // filter files and get mp3 files
         // check that the files are audio files
         const fileNameArr = file.split('.');
-        return fileNameArr[fileNameArr.length - 1] === 'wav';
+        return fileNameArr[fileNameArr.length - 1] === 'mp3';
     }).map((file) => `/${file}`);
     return res.json({ success: true, files }); // return a json with files
 });
